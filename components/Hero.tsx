@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="relative h-screen">
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1.JPG-NoRm5m6sc60QF3EIi1aVr1L7OGPkaS.jpeg"
+        src="hero.jpg"
         alt="City Skyline"
         layout="fill"
         objectFit="cover"

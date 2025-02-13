@@ -2,27 +2,27 @@ import Image from "next/image"
 
 const projects = [
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Project 1",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Project 2",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Project 3",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Manufacturing",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Project 5",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6.JPG-nM0Zo4MOKP5KggpBE3DvHMR4tQar2Z.jpeg",
+    image: "project.jfif",
     title: "Project 6",
   },
 ]

@@ -10,7 +10,7 @@ const ContactForm = () => {
             <div className="flex items-start mb-4">
               <MapPin className="w-6 h-6 text-red-500 mr-4" />
               <p>
-                Xenoferite FZ-LLC, 2nd Floor, Building 16,
+                Wolf Packet FZ-LLC, 2nd Floor, Building 16,
                 <br />
                 Premises No. 240, Dubai Internet City, Dubai,
                 <br />

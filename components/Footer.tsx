@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p>Copyright 2022 xenoferite All Rights Reserved.</p>
+            <p>Copyright 2022 Wolf packet All Rights Reserved.</p>
           </div>
           <div>
             <Image

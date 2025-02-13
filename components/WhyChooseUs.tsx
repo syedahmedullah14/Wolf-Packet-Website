@@ -5,7 +5,7 @@ const features = [
     icon: <Monitor className="w-8 h-8 text-red-500" />,
     title: "End-To-End Application Services",
     description:
-      "Application services include app development, support, cloud migration, modernization, integration, security management, and more. xenoferite brings all-around services to turn your enterprise applications into max profit.",
+      "Application services include app development, support, cloud migration, modernization, integration, security management, and more. Wolf packet brings all-around services to turn your enterprise applications into max profit.",
   },
   {
     icon: <Clock className="w-8 h-8 text-red-500" />,

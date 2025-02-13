@@ -14,7 +14,7 @@ const AboutUs = () => {
               teams, effective communication between xenoferite, your teams, and stakeholders.
             </p>
             <p className="text-gray-600">
-              To achieve this, xenoferite has developed a comprehensive quality management system that resides in
+              To achieve this, wolf packet has developed a comprehensive quality management system that resides in
               quality-centered leadership, committed employees, transparent KPIs, data-driven decision-making,
               continuous process improvement, quality controls throughout the SDLC, and more.
             </p>
@@ -22,7 +22,7 @@ const AboutUs = () => {
           <div className="md:w-1/2 md:pl-8">
             <div className="relative h-96">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3.JPG-fd4NpqfQxfLNmc1powchh2E1eJxVx6.jpeg"
+                src="contact.avif"
                 alt="About Us"
                 layout="fill"
                 objectFit="cover"

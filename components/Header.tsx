@@ -13,10 +13,10 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/xenoferite-logo.svg" alt="Xenoferite Logo" width={150} height={40} />
+            <Image src="/xenoferite-logo.svg" alt="Wolfpacket Logo" width={150} height={40} />
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-gray-900">
+            <Link href="#about-us" className="text-gray-700 hover:text-gray-900">
               Home
             </Link>
             <Link href="/about" className="text-gray-700 hover:text-gray-900">
