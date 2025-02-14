@@ -22,7 +22,7 @@ const projects = [
     title: "Project 5",
   },
   {
-    image: "project6.jpeg",
+    image: "project.jfif",
     title: "Project 6",
   },
 ]
