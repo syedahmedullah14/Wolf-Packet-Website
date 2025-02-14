@@ -7,7 +7,7 @@ const ContactForm = () => {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0 bg-black mr-5">
             <h2 className="text-3xl font-bold mb-6 mt-20 text-white text-center">Our Contacts</h2>
-          <div className="px-20">
+          <div className="px-20 pb-20">
             <div className="flex items-start mb-4">
               <MapPin className="w-6 h-6 text-red-500 mr-4" />
               <p className="text-white">
