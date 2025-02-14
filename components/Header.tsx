@@ -1,35 +1,50 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   return (
-    <header className="bg-white shadow-md">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-black shadow-md" : "bg-transparent"}`}
+    >
       <div className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.jfif" alt="Wolfpacket Logo" width={100} height={10} />
+            <Image src="/logo.png" alt="Xenoferite Logo" width={100} height={10} />
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="#about-us" className="text-gray-700 hover:text-gray-900">
-              Home
-            </Link>
-            <Link href="/about" className="text-gray-700 hover:text-gray-900">
-              About Us
-            </Link>
-            <Link href="/services" className="text-gray-700 hover:text-gray-900">
-              Services
-            </Link>
-            <Link href="/portfolio" className="text-gray-700 hover:text-gray-900">
-              Portfolio
-            </Link>
+            {["Home", "About Us", "Services", "Portfolio", "Contact"].map((item) => (
+              <Link
+                key={item}
+                href={`#${item.toLowerCase().replace(" ", "-")}`}
+                className={`text-sm font-medium transition-colors hover:text-gray-300 hover:underline ${
+                  isScrolled ? "text-white" : "text-white hover:text-gray-200"
+                }`}
+              >
+                {item}
+              </Link>
+            ))}
           </nav>
-          <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <button
+            className={`md:hidden transition-colors ${isScrolled ? "text-gray-700" : "text-white"}`}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -37,18 +52,16 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <nav className="flex flex-col items-center py-4 bg-white">
-            <Link href="/" className="py-2 text-gray-700 hover:text-gray-900">
-              Home
-            </Link>
-            <Link href="/about" className="py-2 text-gray-700 hover:text-gray-900">
-              About Us
-            </Link>
-            <Link href="/services" className="py-2 text-gray-700 hover:text-gray-900">
-              Services
-            </Link>
-            <Link href="/portfolio" className="py-2 text-gray-700 hover:text-gray-900">
-              Portfolio
-            </Link>
+            {["Home", "About Us", "Services", "Portfolio", "Contact"].map((item) => (
+              <Link
+                key={item}
+                href={`#${item.toLowerCase().replace(" ", "-")}`}
+                className="py-2 text-gray-700 hover:text-gray-900"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item}
+              </Link>
+            ))}
           </nav>
         </div>
       )}

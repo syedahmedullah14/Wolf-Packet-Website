@@ -5,11 +5,12 @@ const ContactForm = () => {
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-3xl font-bold mb-6">Our Contacts</h2>
+          <div className="md:w-1/2 mb-8 md:mb-0 bg-black mr-5">
+            <h2 className="text-3xl font-bold mb-6 mt-20 text-white text-center">Our Contacts</h2>
+          <div className="px-20">
             <div className="flex items-start mb-4">
               <MapPin className="w-6 h-6 text-red-500 mr-4" />
-              <p>
+              <p className="text-white">
                 WOLF PACK ELECTRONICS TRADING LLC   
                 <br />
                 PO Box 27724, OF13-585, Arabian Sky 9th Floor
@@ -19,15 +20,17 @@ const ContactForm = () => {
             </div>
             <div className="flex items-center mb-4">
               <Mail className="w-6 h-6 text-red-500 mr-4" />
-              <a href="mailto:info@xenoferite.com" className="hover:underline">
+              <a href="mailto:info@xenoferite.com" className="hover:underline text-white">
               info@wolfpacket.net              </a>
             </div>
             <div className="flex items-center">
               <Phone className="w-6 h-6 text-red-500 mr-4" />
-              <a href="tel:+97143901646" className="hover:underline">
+              <a href="tel:+97143901646" className="hover:underline text-white">
                 +97158 5814358
               </a>
             </div>
+          </div>
+            
           </div>
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold mb-6">Request A Quote</h2>
