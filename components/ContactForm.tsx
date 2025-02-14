@@ -10,23 +10,22 @@ const ContactForm = () => {
             <div className="flex items-start mb-4">
               <MapPin className="w-6 h-6 text-red-500 mr-4" />
               <p>
-                Wolf Packet FZ-LLC, 2nd Floor, Building 16,
+                WOLF PACK ELECTRONICS TRADING LLC   
                 <br />
-                Premises No. 240, Dubai Internet City, Dubai,
+                PO Box 27724, OF13-585, Arabian Sky 9th Floor
                 <br />
-                United Arab Emirates.
+                City Bank Building, Oud Metha, Dubai, UAE
               </p>
             </div>
             <div className="flex items-center mb-4">
               <Mail className="w-6 h-6 text-red-500 mr-4" />
               <a href="mailto:info@xenoferite.com" className="hover:underline">
-                info@xenoferite.com
-              </a>
+              info@wolfpacket.net              </a>
             </div>
             <div className="flex items-center">
               <Phone className="w-6 h-6 text-red-500 mr-4" />
               <a href="tel:+97143901646" className="hover:underline">
-                +97143901646
+                +97158 5814358
               </a>
             </div>
           </div>
