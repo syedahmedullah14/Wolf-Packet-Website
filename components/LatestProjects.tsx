@@ -2,27 +2,27 @@ import Image from "next/image"
 
 const projects = [
   {
-    image: "project.jfif",
+    image: "project6.jpeg",
     title: "Project 1",
   },
   {
-    image: "project.jfif",
+    image: "project2.jpg",
     title: "Project 2",
   },
   {
-    image: "project.jfif",
+    image: "project3.jpeg",
     title: "Project 3",
   },
   {
-    image: "project.jfif",
+    image: "project4.jpg",
     title: "Manufacturing",
   },
   {
-    image: "project.jfif",
+    image: "project5.webp",
     title: "Project 5",
   },
   {
-    image: "project.jfif",
+    image: "project6.jpeg",
     title: "Project 6",
   },
 ]
