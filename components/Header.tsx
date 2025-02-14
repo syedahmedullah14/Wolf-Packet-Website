@@ -26,7 +26,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.png" alt="Xenoferite Logo" width={100} height={10} />
+            <Image src="/logo.png" alt="Wolf packet Logo" width={100} height={10} />
           </Link>
           <nav className="hidden md:flex space-x-6">
             {["Home", "About Us", "Services", "Portfolio", "Contact"].map((item) => (

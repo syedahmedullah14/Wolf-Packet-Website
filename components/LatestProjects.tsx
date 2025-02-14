@@ -29,7 +29,7 @@ const projects = [
 
 const LatestProjects = () => {
   return (
-    <section className="py-16">
+    <section className="py-16" id="portfolio">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Latest Projects</h2>
         <div className="grid md:grid-cols-3 gap-6">

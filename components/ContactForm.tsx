@@ -2,7 +2,7 @@ import { MapPin, Mail, Phone } from "lucide-react"
 
 const ContactForm = () => {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gray-100" id="contact">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mb-8 md:mb-0 bg-black mr-5">
